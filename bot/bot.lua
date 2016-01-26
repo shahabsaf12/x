@@ -207,7 +207,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-      "x",
+      "plugins",
       "leave",
 },
     sudo_users = {119989724},
